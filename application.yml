@@ -1,0 +1,14 @@
+锘縮pring:
+    profiles:
+        active:
+        - dev
+---
+spring:
+    profiles: dev   #开发环境
+    application:
+        name: springCloud-config-lyf-dev
+---
+spring:
+    profiles: test   #测试环境
+    application:
+        name: springCloud-config-lyf-test

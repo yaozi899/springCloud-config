@@ -9,10 +9,7 @@ spring:
   proflies: dev
   application:
     name: springCloud-config-client
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka-dev.com:7001/eureka/
+eureka.client.service-url.defaultZone=http://eureka-dev.com:7001/eureka/
 ---
 server:
   port: 8202
